@@ -20,7 +20,7 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 50%;
+    clip-path: polygon(0 25%, 25% 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .champion-card h3 {
