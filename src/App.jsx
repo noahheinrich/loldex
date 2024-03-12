@@ -9,12 +9,16 @@ function App() {
 
   const handleChampionSelect = (id) => {
     setSelectedChampionId(id);
+    };
+    
+  const resetSelection = () => {
+    setSelectedChampionId(null);
   };
 
   return (
     <div className="App">
       {selectedChampionId ? (
-        <ChampionDetails championId={selectedChampionId} />
+        <ChampionDetails championId={selectedChampionId} onBack={resetSelection} />
       ) : (
         <ChampionGrid onSelectChampion={handleChampionSelect} />
       )}
