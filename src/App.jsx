@@ -1,14 +1,23 @@
-import React from 'react';
-//import './App.css'; // Assurez-vous que ce fichier contient vos styles globaux
+import React, { useState } from 'react';
+import './App.css';
 import ChampionGrid from './ChampionGrid';
-// Importez d'autres composants globaux, comme Header ou Footer, si vous en avez
+import ChampionDetails from './ChampionDetails';
+// Assurez-vous que les chemins d'importation sont corrects
 
 function App() {
+  const [selectedChampionId, setSelectedChampionId] = useState(null);
+
+  const handleChampionSelect = (id) => {
+    setSelectedChampionId(id);
+  };
+
   return (
     <div className="App">
-      {/* Vous pouvez inclure ici un Header si vous en avez un */}
-      <ChampionGrid />
-      {/* Ici, vous pourriez ajouter un Footer si nécessaire */}
+      {selectedChampionId ? (
+        <ChampionDetails championId={selectedChampionId} />
+      ) : (
+        <ChampionGrid onSelectChampion={handleChampionSelect} />
+      )}
     </div>
   );
 }
