@@ -1,7 +1,9 @@
 function ChampionCard({ champion, onSelect }) {
+
+  const imagePath = `/images/icons/${champion.image}`;
   return (
     <div className="champion-card" onClick={onSelect}>
-      <img src={champion.image} alt={champion.name} />
+      <img src={imagePath} alt={champion.name} />
       <h3>{champion.name}</h3>
     </div>
   );

@@ -3,10 +3,11 @@ const championsData = [
         id: 1,
         name: "Aatrox",
         title: "Epée des Darkin",
-        image: "lien_vers_image_aatrox",
+        image: "Aatrox.png",
         description: "Autrefois, Aatrox et ses frères étaient honorés pour avoir défendu Shurima contre le Néant. Mais ils finirent par devenir une menace plus grande encore pour Runeterra : la ruse et la sorcellerie furent employées pour les battre. Cependant, après des siècles d'emprisonnement, Aatrox fut le premier à retrouver sa liberté, en corrompant et transformant les mortels assez stupides pour tenter de s'emparer de l'arme magique qui contenait son essence. Désormais en possession d'un corps qu'il a approximativement transformé pour rappeler son ancienne forme, il arpente Runeterra en cherchant à assouvir sa vengeance apocalyptique.",
         difficulty: "Modérée",
         category: "Combattant",
+        region: "Runeterra"
     },
     {
         id: 2,
@@ -16,6 +17,7 @@ const championsData = [
         description: "Connectée à la magie du royaume spirituel, Ahri est une mystérieuse Vastaya aux traits de renard qui peut manipuler les émotions de sa proie et consumer son essence, afin de recevoir des fragments de sa mémoire. Ahri fut un temps un terrifiant prédateur, mais elle voyage désormais à la recherche des vestiges de ses ancêtres tout en essayant de remplacer les souvenirs qu'elle a volés par sa propre expérience de l'existence.",
         difficulty: "Modérée",
         category: "Mage",
+        region: "Ionia"
     },
     {
         id: 3,
@@ -25,6 +27,7 @@ const championsData = [
         description: "Ayant abandnné l'Ordre Kinkou et le titre de Poing de l'ombre, Akali combat aujourd'hui seule, prête à devenir l'arme mortelle dont son peuple a besoin. Bien qu'elle n'oublie rien de tout ce que son maître Shen lui a enseigné, elle a juré de défendre Ionia contre ses ennemis, une élimination après l'autre. Akali tue sans faire de bruit, mais son message est fort et clair : craignez l'assassin sans maître.",
         difficulty: "Modérée",
         category: "Assassin",
+        region: "Ionia"
     },
     {
         id: 4,
@@ -34,6 +37,7 @@ const championsData = [
         description: "Se jouant du danger, Akshan combat le mal sans jamais se départir de son charisme (il ne faut jamais sous-estimer l'importance de la cape) et de sa droiture. Il est passé maître dans l'art du combat furtif, ce qui lui permet d'échapper au regard de ses ennemis et de réapparaître lorsqu'ils s'y attendent le moins. À l'aide de son sens aigu de la justice et d'une arme légendaire défiant la mort elle-même, il redresse les torts des nombreux vauriens de Runeterra. Sa règle d'or : « ne sois pas crapuleux. »",
         difficulty: "Faible",
         category: "Tireur",
+        region: "Shurima"
     },
     {
         id: 5,
