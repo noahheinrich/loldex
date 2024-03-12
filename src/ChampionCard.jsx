@@ -6,3 +6,5 @@ function ChampionCard({ champion }) {
     </div>
   );
 }
+
+export default ChampionCard;
