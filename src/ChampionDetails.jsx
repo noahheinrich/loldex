@@ -19,6 +19,7 @@ function ChampionDetails({ championId, onBack}) {
       <p>{champion.description}</p>
       <p>Difficulté: {champion.difficulty}</p>
       <p>Catégorie: {champion.category}</p>
+      <p>Titre : {champion.title}</p>    
       {/* Ajoutez ici d'autres informations que vous souhaitez afficher */}
     </div>
   );
