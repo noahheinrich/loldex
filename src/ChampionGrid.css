@@ -10,7 +10,7 @@ html {
 /* Styles pour la zone de recherche et les filtres */
 .search-input,
 .filter-select {
-    width: calc(33% - 10px);
+    width: calc(33% - 20px);
     padding: 10px;
     margin-right: 15px;
     margin-bottom: 20px;
