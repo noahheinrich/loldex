@@ -1,5 +1,6 @@
 import React from "react";
 import championsData from "./championsData";
+import "./ChampionDetails.css";
 
 function ChampionDetails({ championId, onBack }) {
   const champion = championsData.find((champ) => champ.id === championId);

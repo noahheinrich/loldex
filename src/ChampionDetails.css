@@ -1,0 +1,56 @@
+/* Styles généraux pour la page de détails du champion */
+.champion-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    /* background-color: #fff; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le bouton de retour */
+.champion-details button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.champion-details button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour le titre et les paragraphes */
+.champion-details h2 {
+    /* color: #333; */
+    margin-bottom: 10px;
+}
+
+.champion-details p {
+    /* color: #666; */
+    line-height: 1.5;
+}
+
+/* Styles pour les sections de matchups */
+.champion-details h3 {
+    /* color: #444; */
+    margin-top: 20px;
+}
+
+/* Styles pour les images des champions dans les sections de matchups */
+.champion-details img {
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox pour aligner les images de matchups côte à côte */
+.champion-details div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
