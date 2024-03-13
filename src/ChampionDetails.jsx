@@ -20,11 +20,6 @@ function ChampionDetails({ championId, onBack }) {
     ? championsData.filter((champ) => champion.WeakMatchup.includes(champ.name))
     : [];
   
-  console.log("Champion:", champion);
-  console.log("Strong Matchups:", strongMatchups);
-  console.log("Weak Matchups:", weakMatchups);
-
-
   return (
     <div className="champion-details">
       <button onClick={onBack}>Retour</button>
@@ -60,6 +55,7 @@ function ChampionDetails({ championId, onBack }) {
       <p>Catégorie: {champion.category}</p>
       <p>Titre : {champion.title}</p>
       <p>Région : {champion.region}</p>
+      <p>Description : {champion.description}</p>
     </div>
   );
 }
