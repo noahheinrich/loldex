@@ -1,5 +1,7 @@
 /* App.css */
-
+html{
+    background-color: #333333;
+}
 .champion-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -15,15 +17,62 @@
     padding: 10px;
     border-radius: 8px;
 }
+.champion-card:hover{
+    cursor: pointer;
+}
 
 .champion-card img {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    clip-path: polygon(0 25%, 25% 0, 100% 0, 100% 100%, 0 100%);
+    /* clip-path: polygon(0 25%, 25% 0, 100% 0, 100% 100%, 0 100%); */
+    border-radius: 10px;
 }
 
 .champion-card h3 {
     margin-top: 10px;
     font-size: 1em;
+}
+
+.noxus-color{
+    background-color: #ef233c;
+}
+.zaun-color{
+    background-color: #70e000;
+}
+.shurima-color{
+    background-color: #ffee32;
+}
+.freljord-color{
+    background-color: #a2d2ff;
+}
+.ionia-color{
+    background-color: #ea638c;
+}
+.neant-color{
+    background-color: #b185db;
+}
+.demacia-color{
+    background-color: #ffffff;
+}
+.bilgewater-color{
+    background-color: #b08968;
+}
+.iles-color{
+    background-color: #80ffdb;
+}
+.runeterra-color{
+    background-color: #adb5bd;
+}
+.bandle-color{
+    background-color: #ff6700;
+}
+.piltover-color{
+    background-color: #1e96fc;
+}
+.ixtal-color{
+    background-color: #008000;
+}
+.targon-color{
+    background-color: #ffb997;
 }
