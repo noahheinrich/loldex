@@ -1,0 +1,64 @@
+/* Style global pour la page */
+body,
+html {
+    /* font-family: 'Arial', sans-serif; */
+    /* background-color: #f0f0f0; */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styles pour la zone de recherche et les filtres */
+.search-input,
+.filter-select {
+    width: calc(33% - 10px);
+    padding: 10px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.search-input:focus,
+.filter-select:focus {
+    border-color: #007bff;
+}
+
+/* Style pour les sélecteurs de filtre pour les afficher en ligne */
+.filter-select {
+    display: inline-block;
+}
+
+/* Styles pour la grille des champions */
+.champion-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* Styles pour chaque carte de champion dans la grille */
+.champion-card {
+    /* background-color: #fff; */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.champion-card:hover {
+    transform: translateY(-5px);
+}
+
+.champion-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.champion-card h3 {
+    margin: 10px;
+    text-align: center;
+}

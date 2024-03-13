@@ -2,6 +2,11 @@
 html{
     background-color: #333333;
 }
+
+.champion-details{
+    color : white;
+}
+
 .champion-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));

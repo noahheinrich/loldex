@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ChampionCard from './ChampionCard';
 import championsData from './championsData';
+import './ChampionGrid.css';
 
 function ChampionGrid({ onSelectChampion }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -32,28 +33,46 @@ function ChampionGrid({ onSelectChampion }) {
 
   return (
     <div>
-      <input
-        type="text"
-        placeholder="Rechercher un champion..."
-        value={searchTerm}
-        onChange={handleSearchChange}
-        className="search-input"
-      />
-      <select value={selectedCategory} onChange={handleCategoryChange} className="filter-select">
-        <option value="">Toutes les catégories</option>
-        {categories.map(category => (
-          <option key={category} value={category}>{category}</option>
-        ))}
-      </select>
-      <select value={selectedRegion} onChange={handleRegionChange} className="filter-select">
-        <option value="">Toutes les régions</option>
-        {regions.map(region => (
-          <option key={region} value={region}>{region}</option>
-        ))}
-      </select>
+      <div>
+        <input
+          type="text"
+          placeholder="Rechercher un champion..."
+          value={searchTerm}
+          onChange={handleSearchChange}
+          className="search-input"
+        />
+        <select
+          value={selectedCategory}
+          onChange={handleCategoryChange}
+          className="filter-select"
+        >
+          <option value="">Toutes les catégories</option>
+          {categories.map((category) => (
+            <option key={category} value={category}>
+              {category}
+            </option>
+          ))}
+        </select>
+        <select
+          value={selectedRegion}
+          onChange={handleRegionChange}
+          className="filter-select"
+        >
+          <option value="">Toutes les régions</option>
+          {regions.map((region) => (
+            <option key={region} value={region}>
+              {region}
+            </option>
+          ))}
+        </select>
+      </div>
       <div className="champion-grid">
-        {filteredChampions.map(champion => (
-          <ChampionCard key={champion.id} champion={champion} onSelect={() => onSelectChampion(champion.id)} />
+        {filteredChampions.map((champion) => (
+          <ChampionCard
+            key={champion.id}
+            champion={champion}
+            onSelect={() => onSelectChampion(champion.id)}
+          />
         ))}
       </div>
     </div>
