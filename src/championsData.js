@@ -8,6 +8,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Runeterra",
+        StrongMatchup: ["Ahri", "Darius"],
+        WeakMatchup: ["Milio", "Jarvan IV"],
     },
     {
         id: 2,
@@ -18,6 +20,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 3,
@@ -28,6 +32,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Assassin",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 4,
@@ -38,6 +44,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Tireur",
         region: "Shurima",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 5,
@@ -48,6 +56,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 6,
@@ -58,6 +68,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Tank",
         region: "Shurima",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 7,
@@ -68,6 +80,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Mage",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 8,
@@ -78,6 +92,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 9,
@@ -88,6 +104,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Tireur",
         region: "Targon",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 10,
@@ -98,6 +116,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 11,
@@ -108,6 +128,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 12,
@@ -118,6 +140,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Mage",
         region: "Shurima",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 13,
@@ -128,6 +152,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Support",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 14,
@@ -138,6 +164,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Combattant",
         region: "Le Néant",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 15,
@@ -148,6 +176,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 16,
@@ -158,6 +188,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 17,
@@ -168,6 +200,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Support",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 18,
@@ -178,6 +212,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Combattant",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 19,
@@ -188,6 +224,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Piltover",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 20,
@@ -198,6 +236,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Piltover",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 21,
@@ -208,6 +248,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Mage",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 22,
@@ -218,6 +260,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Le Néant",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 23,
@@ -228,6 +272,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Bandle",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 24,
@@ -238,6 +284,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Combattant",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 25,
@@ -248,6 +296,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Targon",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 26,
@@ -258,6 +308,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 27,
@@ -268,6 +320,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Tireur",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 28,
@@ -278,6 +332,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Assassin",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 29,
@@ -288,6 +344,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Mage",
         region: "Iles Obscures",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 30,
@@ -298,6 +356,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Assassin",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 31,
@@ -308,6 +368,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Piltover",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 32,
@@ -318,6 +380,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Mage",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 33,
@@ -328,6 +392,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Combattant",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 34,
@@ -338,6 +404,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Assassin",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     }, {
         id: 35,
         name: "Galio",
@@ -347,6 +415,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 36,
@@ -357,6 +427,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Combattant",
         region: "Bilgewater",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 37,
@@ -367,6 +439,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 38,
@@ -377,6 +451,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Combattant",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 39,
@@ -387,6 +463,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 40,
@@ -397,6 +475,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Tireur",
         region: "Bilgewater",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 41,
@@ -407,6 +487,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Iles Obscures",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 42,
@@ -417,6 +499,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Iles Obscures",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 43,
@@ -427,6 +511,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Mage",
         region: "Piltover",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 44,
@@ -437,6 +523,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Mage",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 45,
@@ -447,6 +535,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Bilgewater",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 46,
@@ -457,6 +547,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 47,
@@ -467,6 +559,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Support",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 48,
@@ -477,6 +571,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Support",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 49,
@@ -487,6 +583,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 50,
@@ -497,6 +595,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 51,
@@ -507,6 +607,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Piltover",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 52,
@@ -517,6 +619,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 53,
@@ -527,6 +631,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 54,
@@ -537,6 +643,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Tank",
         region: "Shurima",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 55,
@@ -547,6 +655,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Le Néant",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 56,
@@ -557,6 +667,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Iles Obscures",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 57,
@@ -567,6 +679,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 58,
@@ -577,6 +691,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Iles Obscures",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 59,
@@ -587,6 +703,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Assassin",
         region: "Le Néant",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 60,
@@ -597,6 +715,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Assassin",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 61,
@@ -607,6 +727,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
 
     },
     {
@@ -618,6 +740,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Combattant",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 63,
@@ -628,6 +752,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
 
     },
     {
@@ -639,6 +765,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Assassin",
         region: "Le Néant",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
 
     {
@@ -650,6 +778,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
 
     {
@@ -661,6 +791,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
 
     {
@@ -672,6 +804,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Le Néant",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
 
     {
@@ -683,6 +817,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Assassin",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
 
     {
@@ -694,6 +830,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
 
     {
@@ -705,6 +843,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Targon",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
 
     {
@@ -716,6 +856,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Combattant",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
 
     {
@@ -727,6 +869,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
 
     {
@@ -738,6 +882,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
 
     {
@@ -749,6 +895,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Support",
         region: "Bandle",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
 
 
@@ -761,6 +909,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 76,
@@ -771,6 +921,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Assassin",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 77,
@@ -781,6 +933,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Tank",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 78,
@@ -791,6 +945,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Le Néant",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 79,
@@ -801,6 +957,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Tank",
         region: "Iles Obscures",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 80,
@@ -811,6 +969,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Support",
         region: "Ixtal",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 81,
@@ -821,6 +981,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Tireur",
         region: "Bilgewater",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 82,
@@ -831,6 +993,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 83,
@@ -841,6 +1005,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Mage",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 84,
@@ -850,7 +1016,9 @@ const championsData = [
         description: "À travers le désert de Shurima, un concert de hurlements retentit. C'est l'appel des chiens des sables, ces prédateurs voraces qui se déplacent en meutes et luttent pour la moindre source de nourriture de ces terres stériles. Parmi ces meutes, une se distingue des autres. Elle ne suit pas uniquement ses instincts primitifs : elle est guidée par le pouvoir antique des Darkin.",
         difficulty: "Faible",
         category: "Assassin",
-        region: "Shurima",
+        region: "Shurima", 
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 85,
@@ -861,6 +1029,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Support",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 86,
@@ -871,6 +1041,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Shurima",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 87,
@@ -881,6 +1053,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Bilgewater",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 88,
@@ -891,6 +1065,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Ixtal",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 89,
@@ -901,6 +1077,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Assassin",
         region: "Ixtal",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 90,
@@ -911,6 +1089,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Combattant",
         region: "Bilgewater",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 91,
@@ -921,6 +1101,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Assassin",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 92,
@@ -931,6 +1113,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 93,
@@ -941,6 +1125,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Combattant",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 94,
@@ -951,6 +1137,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Piltover",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 95,
@@ -961,6 +1149,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 96,
@@ -971,6 +1161,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Targon",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 97,
@@ -981,6 +1173,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 98,
@@ -991,6 +1185,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Support",
         region: "Bilgewater",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 99,
@@ -1001,6 +1197,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Assassin",
         region: "Ixtal",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 100,
@@ -1011,6 +1209,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 101,
@@ -1021,6 +1221,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Support",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 102,
@@ -1031,6 +1233,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Shurima",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 103,
@@ -1041,6 +1245,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Combattant",
         region: "Le Néant",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 104,
@@ -1051,6 +1257,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Tank",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 105,
@@ -1061,6 +1269,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Support",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 106,
@@ -1071,6 +1281,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Combattant",
         region: "Shurima",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 107,
@@ -1081,6 +1293,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Assassin",
         region: "Ixtal",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 108,
@@ -1091,6 +1305,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Combattant",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 109,
@@ -1101,6 +1317,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Combattant",
         region: "Bandle",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 110,
@@ -1111,6 +1329,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 111,
@@ -1121,6 +1341,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 112,
@@ -1131,6 +1353,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 113,
@@ -1141,6 +1365,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 114,
@@ -1151,6 +1377,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Mage",
         region: "Piltover",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 115,
@@ -1161,6 +1389,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Combattant",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 116,
@@ -1171,6 +1401,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Assassin",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 117,
@@ -1181,6 +1413,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 118,
@@ -1191,6 +1425,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 119,
@@ -1201,6 +1437,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 120,
@@ -1211,6 +1449,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tank",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 121,
@@ -1221,6 +1461,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Shurima",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 122,
@@ -1231,6 +1473,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Shurima",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 123,
@@ -1241,6 +1485,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 124,
@@ -1251,6 +1497,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Support",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 125,
@@ -1261,6 +1509,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Support",
         region: "Targon",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 126,
@@ -1271,6 +1521,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Mage",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 127,
@@ -1281,6 +1533,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 128,
@@ -1291,6 +1545,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Mage",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 129,
@@ -1301,6 +1557,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Support",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 130,
@@ -1310,7 +1568,9 @@ const championsData = [
         description: "Taliyah est une mage issue des tribus nomades de Shurima, déchirée entre l'émerveillement de la jeunesse et les responsabilités des adultes. Elle a déjà traversé pratiquement tout Valoran pour découvrir la véritable nature de ses pouvoirs toujours plus puissants, avant d'être récemment retournée dans sa tribu pour la protéger. Certains se méprennent sur sa compassion et paient leur erreur au prix fort : sous son attitude joviale, Taliyah dissimule une volonté de fer capable de déplacer les montagnes et un esprit assez féroce pour faire trembler la terre.",
         difficulty: "Modérée",
         category: "Mage",
-        region: "Shurima"
+        region: "Shurima",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 131,
@@ -1321,6 +1581,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Assassin",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 132,
@@ -1331,6 +1593,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Support",
         region: "Targon",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 133,
@@ -1341,6 +1605,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Bandle",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 134,
@@ -1351,6 +1617,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Support",
         region: "Iles Obscures",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 135,
@@ -1361,6 +1629,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Bandle",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 136,
@@ -1371,6 +1641,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 137,
@@ -1381,6 +1653,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 138,
@@ -1391,6 +1665,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Mage",
         region: "Bilgewater",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 139,
@@ -1401,6 +1677,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 140,
@@ -1411,6 +1689,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 141,
@@ -1421,6 +1701,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Combattant",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 142,
@@ -1431,6 +1713,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Tireur",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 143,
@@ -1441,6 +1725,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Tireur",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 144,
@@ -1451,6 +1737,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Bandle",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 145,
@@ -1460,7 +1748,9 @@ const championsData = [
         description: "On ne sait pas trop si Vel'Koz fut le premier monstre du Néant à émerger à Runeterra, mais il est certain qu'aucun autre n'a jamais égalé la froideur calculatrice de sa cruauté. Alors que ses semblables dévorent ou profanent tout ce qui les entoure, il cherche à étudier le royaume physique et les étranges êtres belliqueux qui l'habitent. Selon lui, c'est ainsi que le Néant trouvera comment exploiter leurs faiblesses. Mais Vel'Koz n'est pas qu'un observateur passif. Il répond à toute menace avec des éruptions mortelles de plasma ou en déchirant le tissu même du monde.",
         difficulty: "Élevée",
         category: "Mage",
-        region: "Le Néant",
+        region: "Le Néant", 
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 146,
@@ -1471,6 +1761,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Mage",
         region: "Iles Obscures",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 147,
@@ -1481,6 +1773,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Piltover",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 148,
@@ -1491,6 +1785,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Assassin",
         region: "Iles Obscures",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 149,
@@ -1501,6 +1797,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Mage",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 150,
@@ -1511,6 +1809,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Noxus",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 151,
@@ -1521,6 +1821,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Combattant",
         region: "Freljord",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 152,
@@ -1531,6 +1833,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Combattant",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 153,
@@ -1541,6 +1845,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Combattant",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
 
     },
     {
@@ -1552,6 +1858,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 155,
@@ -1562,6 +1870,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Mage",
         region: "Shurima",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 156,
@@ -1572,6 +1882,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Combattant",
         region: "Demacia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 157,
@@ -1582,6 +1894,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Combattant",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 158,
@@ -1592,6 +1906,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Assassin",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 159,
@@ -1602,6 +1918,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Combattant",
         region: "Iles Obscures",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 160,
@@ -1612,6 +1930,8 @@ const championsData = [
         difficulty: "Faible",
         category: "Support",
         region: "Bandle",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 161,
@@ -1622,6 +1942,8 @@ const championsData = [
         difficulty: "Élevée",
         category: "Tank",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 162,
@@ -1632,6 +1954,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Assassin",
         region: "Ionia",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 163,
@@ -1642,6 +1966,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Tireur",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 164,
@@ -1652,6 +1978,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Zaun",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 165,
@@ -1662,6 +1990,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Support",
         region: "Runeterra",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 166,
@@ -1672,6 +2002,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Targon",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
     {
         id: 167,
@@ -1682,6 +2014,8 @@ const championsData = [
         difficulty: "Modérée",
         category: "Mage",
         region: "Ixtal",
+        StrongMatchup: ["Garen", "Darius"],
+        WeakMatchup: ["Fiora", "Jax"],
     },
 
 ];
